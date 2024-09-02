@@ -42,7 +42,7 @@ namespace Omiyage
             _descriptionLabel = new Label();
             _middleContainer = root.Q<VisualElement>(UiToolkitConstants.MIDDLE_CONTAINER_NAME);
 
-            root.Q<VisualElement>(UiToolkitConstants.BOTTOM_CONTAINER_NAME).Add(_descriptionLabel);
+            root.Q<VisualElement>(UiToolkitConstants.SCROLL_VIEW_NAME).Add(_descriptionLabel);
 
             var prevButton = root.Q<Button>(UiToolkitConstants.PREVIOUS_BUTTON_NAME);
             var nextButton = root.Q<Button>(UiToolkitConstants.NEXT_BUTTON_NAME);

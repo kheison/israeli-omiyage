@@ -4,12 +4,14 @@ root {
 
 .main-container {
     background-color: rgb(136, 171, 242);
+    align-items: stretch;
+    justify-content: flex-end;
+    align-self: auto;
 }
 
 .lang-selector__row {
     flex-grow: 0;
-    height: 5%;
-    top: 5%;
+    height: 8%;
     flex-direction: row;
 }
 
@@ -40,14 +42,8 @@ root {
 .lang-selector__container {
     flex-grow: 0;
     width: 40%;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    margin: 10px;
+    padding: 0;
     flex-direction: row;
     justify-content: center;
 }
@@ -58,7 +54,7 @@ root {
     width: 100%;
 }
 
-.content-box Label {
+.content-box ScrollView Label {
     font-size: 24px;
     -unity-font: resource('Font/Roboto/Roboto-Regular');
     -unity-font-definition: initial;
@@ -74,7 +70,6 @@ root {
     margin-top: 10px;
     flex-grow: 0;
     height: 5%;
-    top: 5%;
     flex-direction: row;
     align-items: stretch;
     padding-left: 15px;
@@ -123,7 +118,6 @@ root {
     flex-grow: 0;
     height: 80%;
     width: 95%;
-    top: 5%;
     border-radius: 25px;
     border-color: rgb(48, 113, 242);
     border-width: 3px;
