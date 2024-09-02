@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PesekZman
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: b9529c861ae044ef8a9daea19a4e930d, type: 3}
-  descriptionEn: "    <size=64><sprite=1295><sprite=2427><sprite=2483> <sprite=2505></size>Gluten\\Eggs\\Milk\\Nuts\\n\\nThe
+  descriptionEn: "    <size=42><sprite=1295><sprite=2427><sprite=2483> <sprite=2505></size>Gluten\\Eggs\\Milk\\Nuts\\n\\nThe
     name \"Pesek Zman\" translates to \"Time Out\" in English, and it\u2019s often
     marketed as a perfect treat to enjoy during a break.\n\nPesek Zman typically
     features a wafer center covered in milk chocolate, similar to Kif Kef, but with
     a thicker and more substantial chocolate coating."
-  descriptionJp: 
+  descriptionJp: "      <size=42><sprite=1295><sprite=2427><sprite=2483> <sprite=2505></size>\u30B0\u30EB\u30C6\u30F3\\\u5375\\\u4E73\u88FD\u54C1\\\u30CA\u30C3\u30C4\\n\\n\u300C\u30DA\u30BB\u30AF\u30BA\u30DE\u30F3\u300D\u3068\u3044\u3046\u540D\u524D\u306F\u82F1\u8A9E\u3067\u300C\u30BF\u30A4\u30E0\u30A2\u30A6\u30C8\u300D\u3068\u8A33\u3055\u308C\u3001\u4F11\u61A9\u4E2D\u306B\u697D\u3057\u3080\u306E\u306B\u3074\u3063\u305F\u308A\u306E\u304A\u3084\u3064\u3068\u3057\u3066\u3088\u304F\u5BA3\u4F1D\u3055\u308C\u3066\u3044\u307E\u3059\u3002\n\n\u30DA\u30BB\u30AF\u30BA\u30DE\u30F3\u306F\u3001\u30AD\u30D5\u30B1\u30D5\u306B\u4F3C\u305F\u30DF\u30EB\u30AF\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3067\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u3055\u308C\u305F\u30EF\u30C3\u30D5\u30EB\u4E2D\u5FC3\u306E\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u30D0\u30FC\u3067\u3059\u304C\u3001\u3088\u308A\u539A\u304F\u3066\u3057\u3063\u304B\u308A\u3068\u3057\u305F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u304C\u7279\u5FB4\u3067\u3059\u3002\n"

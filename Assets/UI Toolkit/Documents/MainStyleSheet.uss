@@ -25,6 +25,8 @@ root {
 .lang-selector__button Label {
     padding: 10px;
     -unity-text-align: middle-right;
+    -unity-font: resource('Font/Noto_Sans_JP/static/NotoSansJP-Regular');
+    -unity-font-definition: resource('Font/Noto_Sans_JP/NotoSansJP-VariableFont_wght SDF');
 }
 
 .lang-selector__button:hover {
@@ -55,10 +57,10 @@ root {
 }
 
 .content-box ScrollView Label {
-    font-size: 24px;
-    -unity-font: resource('Font/Roboto/Roboto-Regular');
-    -unity-font-definition: initial;
+    font-size: 30px;
+    -unity-font: url("project://database/Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-regular.ttf?fileID=12800000&guid=5b510769ddba50845a81da25103a8b73&type=3#mplus-1m-regular");
     white-space: normal;
+    -unity-font-definition: resource('Font/Noto_Sans_JP/static/NotoSansJP-Medium SDF');
 }
 
 .content-box Image {

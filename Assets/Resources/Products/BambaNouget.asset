@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BambaNouget
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: e57da83f881ff46adb141d3d26546c83, type: 3}
-  descriptionEn: '     <size=64><sprite=2505></size>Nuts\n\nBamba Nougat is a special
+  descriptionEn: '     <size=42><sprite=2505></size>Nuts\n\nBamba Nougat is a special
     variation of the classic Bamba snack. It combines the familiar peanut butter-flavored
     corn puff with a sweet nougat filling inside. The outer layer is the same as
     the traditional Bamba, but the nougat filling adds a creamy, rich sweetness that
@@ -23,4 +23,4 @@ MonoBehaviour:
     Bamba Nougat is a
     popular treat for those who enjoy a mix of sweet and salty flavors, offering
     a twist on the classic Bamba experience.'
-  descriptionJp: 
+  descriptionJp: "       <size=42><sprite=2505></size>\u30CA\u30C3\u30C4\\n\\n\u30D0\u30F3\u30D0\u30CC\u30AC\u30FC\u306F\u3001\u30AF\u30E9\u30B7\u30C3\u30AF\u306A\u30D0\u30F3\u30D0\u30B9\u30CA\u30C3\u30AF\u306E\u7279\u5225\u306A\u30D0\u30EA\u30A8\u30FC\u30B7\u30E7\u30F3\u3067\u3059\u3002\u304A\u306A\u3058\u307F\u306E\u30D4\u30FC\u30CA\u30C3\u30C4\u30D0\u30BF\u30FC\u98A8\u5473\u306E\u30B3\u30FC\u30F3\u30D1\u30D5\u306B\u3001\u7518\u3044\u30CC\u30AC\u30FC\u306E\u30D5\u30A3\u30EA\u30F3\u30B0\u304C\u7D44\u307F\u5408\u308F\u3055\u3063\u3066\u3044\u307E\u3059\u3002\u5916\u5074\u306F\u5F93\u6765\u306E\u30D0\u30F3\u30D0\u3068\u540C\u3058\u3067\u3059\u304C\u3001\u30CC\u30AC\u30FC\u306E\u30D5\u30A3\u30EA\u30F3\u30B0\u304C\u30AF\u30EA\u30FC\u30DF\u30FC\u3067\u6FC3\u539A\u306A\u7518\u3055\u3092\u52A0\u3048\u3001\u5869\u5473\u306E\u52B9\u3044\u305F\u30D4\u30FC\u30CA\u30C3\u30C4\u30D0\u30BF\u30FC\u98A8\u5473\u3068\u306E\u30B3\u30F3\u30C8\u30E9\u30B9\u30C8\u304C\u7D76\u5999\u3067\u3059\u3002\n\n\u30D0\u30F3\u30D0\u30CC\u30AC\u30FC\u306F\u3001\u7518\u3055\u3068\u5869\u5473\u306E\u30DF\u30C3\u30AF\u30B9\u3092\u697D\u3057\u3080\u4EBA\u3005\u306B\u4EBA\u6C17\u306E\u304A\u3084\u3064\u3067\u3001\u30AF\u30E9\u30B7\u30C3\u30AF\u306A\u30D0\u30F3\u30D0\u306E\u4F53\u9A13\u306B\u3072\u3068\u5473\u9055\u3063\u305F\u697D\u3057\u3055\u3092\u63D0\u4F9B\u3057\u307E\u3059\u3002\n"
