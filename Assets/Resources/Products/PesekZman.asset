@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: PesekZman
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: b9529c861ae044ef8a9daea19a4e930d, type: 3}
-  descriptionEn: "The name \"Pesek Zman\" translates to \"Time Out\" in English,
-    and it\u2019s often marketed as a perfect treat to enjoy during a break.\n\nPesek
-    Zman typically features a wafer center covered in milk chocolate, similar to
-    Kif Kef, but with a thicker and more substantial chocolate coating."
+  descriptionEn: "    <size=64><sprite=1295><sprite=2427><sprite=2483> <sprite=2505></size>Gluten\\Eggs\\Milk\\Nuts\\n\\nThe
+    name \"Pesek Zman\" translates to \"Time Out\" in English, and it\u2019s often
+    marketed as a perfect treat to enjoy during a break.\n\nPesek Zman typically
+    features a wafer center covered in milk chocolate, similar to Kif Kef, but with
+    a thicker and more substantial chocolate coating."
   descriptionJp: 

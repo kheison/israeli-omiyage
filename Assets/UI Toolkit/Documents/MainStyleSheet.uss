@@ -16,8 +16,13 @@ root {
 .lang-selector__button {
     flex-grow: 1;
     font-size: 28px;
-    background-color: #88ABF2;
+    background-color: rgb(136, 171, 242);
     color: rgb(242, 242, 242);
+}
+
+.lang-selector__button Label {
+    padding: 10px;
+    -unity-text-align: middle-right;
 }
 
 .lang-selector__button:hover {
@@ -29,7 +34,7 @@ root {
 }
 
 .lang-selector__button.selected {
-    background-color: rgb(5, 64, 242); 
+    background-color: rgb(5, 64, 242);
 }
 
 .lang-selector__container {
@@ -53,6 +58,18 @@ root {
     width: 100%;
 }
 
+.content-box Label {
+    font-size: 24px;
+    -unity-font: resource('Font/Roboto/Roboto-Regular');
+    -unity-font-definition: initial;
+    white-space: normal;
+}
+
+.content-box Image {
+    padding: 10px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
 .item-selector__row {
     margin-top: 10px;
     flex-grow: 0;
@@ -60,6 +77,8 @@ root {
     top: 5%;
     flex-direction: row;
     align-items: stretch;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .item-selector__button {
@@ -111,5 +130,8 @@ root {
 }
 
 .action-button {
+    font-size: 24px;
     border-radius: 5px;
+    -unity-font: resource('Font/Roboto/Roboto-Regular');
+    -unity-font-definition: initial;
 }

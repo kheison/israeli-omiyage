@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: BisliGrill
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: 6ce022a6ad20c473b84f1fe6b21d89ce, type: 3}
-  descriptionEn: 'Bisli comes in various flavors, the "Grill" flavor is designed
-    to mimic the taste of grilled or barbecued foods, with a smoky, savory profile.
+  descriptionEn: '      <size=64><sprite=1295></size>Gluten\n\nBisli comes in various
+    flavors, the "Grill" flavor is designed to mimic the taste of grilled or barbecued
+    foods, with a smoky, savory profile.
 
 '
   descriptionJp: 

@@ -5,20 +5,20 @@
             <ui:VisualElement name="InfoBox" class="info-box" style="left: 30px;">
                 <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="InfoButton" class="info-box__button" />
             </ui:VisualElement>
-            <ui:VisualElement name="LanguagePicker" style="flex-grow: 1; flex-direction: row-reverse; margin-left: 20px; margin-right: 20px;">
-                <ui:VisualElement name="LanguageButtonContainer" class="lang-selector__container">
-                    <ui:Button text="JP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Japanese" class="lang-selector__button action-button" />
-                    <ui:Button text="EN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="English" class="lang-selector__button action-button" />
+            <ui:VisualElement name="LanguagePicker" style="flex-grow: 1; flex-direction: row-reverse; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
+                <ui:VisualElement name="LanguageButtonContainer" class="lang-selector__container" style="-unity-text-align: middle-center;">
+                    <ui:Button text="JP\t&lt;sprite name=&quot;japan&quot;&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Japanese" class="lang-selector__button action-button" style="min-width: 48px; min-height: 48px;" />
+                    <ui:Button text="EN\t&lt;sprite name=&quot;england&quot;&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="English" class="lang-selector__button action-button" style="min-width: 48px; min-height: 48px;" />
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="ProductContent" class="product-content">
-            <ui:VisualElement name="Middle" class="content-box" style="border-top-left-radius: 23px; border-top-right-radius: 23px;" />
-            <ui:VisualElement name="Bottom" class="content-box" style="border-bottom-right-radius: 23px; border-bottom-left-radius: 23px;" />
+            <ui:VisualElement name="Middle" class="content-box" style="border-top-left-radius: 23px; border-top-right-radius: 23px; height: 60%;" />
+            <ui:VisualElement name="Bottom" class="content-box" style="border-bottom-right-radius: 23px; border-bottom-left-radius: 23px; height: 40%;" />
         </ui:VisualElement>
         <ui:VisualElement name="ItemContaier" class="item-selector__row">
-            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Previous" class="item-selector__button action-button" />
-            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Next" class="item-selector__button action-button" />
+            <ui:Button text="Previous" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Previous" class="item-selector__button action-button" />
+            <ui:Button text="Next" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Next" class="item-selector__button action-button" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

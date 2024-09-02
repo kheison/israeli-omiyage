@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Mekupelet
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: 096a3ee05826349e7926853fa0760f1d, type: 3}
-  descriptionEn: Mekupelet is made of thin layers of flaky, crumbled milk chocolate
-    that are pressed together into a bar. The name "Mekupelet" roughly translates
-    to "folded" or "layered," which perfectly describes the bar's delicate structure.
+  descriptionEn: '    <size=64><sprite=2483></size>Milk\n\nMekupelet is made of thin
+    layers of flaky, crumbled milk chocolate that are pressed together into a bar.
+    The name "Mekupelet" roughly translates to "folded" or "layered," which perfectly
+    describes the bar''s delicate structure.'
   descriptionJp: 

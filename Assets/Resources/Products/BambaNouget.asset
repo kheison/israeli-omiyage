@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: BambaNouget
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: e57da83f881ff46adb141d3d26546c83, type: 3}
-  descriptionEn: 'Bamba Nougat is a special variation of the classic Bamba snack.
-    It combines the familiar peanut butter-flavored corn puff with a sweet nougat
-    filling inside. The outer layer is the same as the traditional Bamba, but the
-    nougat filling adds a creamy, rich sweetness that contrasts nicely with the salty
-    peanut butter flavor.
+  descriptionEn: '     <size=64><sprite=2505></size>Nuts\n\nBamba Nougat is a special
+    variation of the classic Bamba snack. It combines the familiar peanut butter-flavored
+    corn puff with a sweet nougat filling inside. The outer layer is the same as
+    the traditional Bamba, but the nougat filling adds a creamy, rich sweetness that
+    contrasts nicely with the salty peanut butter flavor.
 
 
-    Bamba Nougat is a popular treat for those who enjoy
-    a mix of sweet and salty flavors, offering a twist on the classic Bamba experience.'
+    Bamba Nougat is a
+    popular treat for those who enjoy a mix of sweet and salty flavors, offering
+    a twist on the classic Bamba experience.'
   descriptionJp: 

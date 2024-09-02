@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: KifKef
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: 6884076bad0cd49a897db899de4d6bd4, type: 3}
-  descriptionEn: 'Kif Kef is an Israeli chocolate bar that closely resembles a Kit
-    Kat. It features crispy wafer layers covered in milk chocolate, making it a crunchy
-    and sweet treat.
+  descriptionEn: '     <size=64><sprite=1295><sprite=2427><sprite=2483> <sprite=2505></size>Gluten\Eggs\Milk\Nuts\n\nKif
+    Kef is an Israeli chocolate bar that closely resembles a Kit Kat. It features
+    crispy wafer layers covered in milk chocolate, making it a crunchy and sweet
+    treat.
 
 
-    Kif Kef comes in various flavors and variations, including
-    milk chocolate, white chocolate, and sometimes special editions with additional
-    ingredients like hazelnuts or caramel.'
+    Kif Kef comes in various flavors and variations, including milk
+    chocolate, white chocolate, and sometimes special editions with additional ingredients
+    like hazelnuts or caramel.'
   descriptionJp: 

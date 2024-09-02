@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Bamba
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: 38af66dbeb1e74555bb4d24fc80141d1, type: 3}
-  descriptionEn: Bamba is a popular snack in Israel, often enjoyed by people of all
-    ages. It's a peanut butter-flavored puffed corn snack, similar in texture to
-    cheese puffs but with a distinct peanut flavor.
+  descriptionEn: '     <size=64><sprite=2505></size>Nuts\n\nBamba is a popular snack
+    in Israel, often enjoyed by people of all ages. It''s a peanut butter-flavored
+    puffed corn snack, similar in texture to cheese puffs but with a distinct peanut
+    flavor.'
   descriptionJp: 

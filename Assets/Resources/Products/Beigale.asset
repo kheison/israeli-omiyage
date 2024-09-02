@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Beigale
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: b8384e7ae68b74bcc8abd3c0fab3d659, type: 3}
-  descriptionEn: Beigale are a common snack in Israel, enjoyed on their own or sometimes
-    dipped in spreads or hummus. They are similar to pretzels in taste and texture
-    but are often smaller and have a different seasoning depending on the brand and
-    variety.
+  descriptionEn: '     <size=64><sprite=1295></size>Gluten\n\nBeigale are a common
+    snack in Israel, enjoyed on their own or sometimes dipped in spreads or hummus.
+    They are similar to pretzels in taste and texture but are often smaller and have
+    a different seasoning depending on the brand and variety.'
   descriptionJp: 

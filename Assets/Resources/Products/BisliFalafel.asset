@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BisliFalafel
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: 0fe39a5c675c545f7a50ed31cf2f2575, type: 3}
-  descriptionEn: Bisli comes in various flavors, and the Falafel flavor is one of
-    the most popular. It mimics the taste of falafel, which is a traditional Middle
-    Eastern dish made from ground chickpeas or fava beans, typically seasoned with
-    herbs and spices and deep-fried.
+  descriptionEn: '     <size=64><sprite=1295></size>Gluten\n\nBisli comes in various
+    flavors, and the Falafel flavor is one of the most popular. It mimics the taste
+    of falafel, which is a traditional Middle Eastern dish made from ground chickpeas
+    or fava beans, typically seasoned with herbs and spices and deep-fried.'
   descriptionJp: 
