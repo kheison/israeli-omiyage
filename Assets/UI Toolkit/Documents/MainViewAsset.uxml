@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Documents/MainStyleSheet.uss?fileID=7433441132597879392&amp;guid=f648a37a2e11548c4a9cafbf399e5d6c&amp;type=3#MainStyleSheet" />
+    <ui:VisualElement name="Container" class="main-container" style="flex-grow: 1; flex-wrap: nowrap; height: auto; justify-content: flex-start;">
+        <ui:VisualElement name="TopRow" class="lang-selector__row">
+            <ui:VisualElement name="InfoBox" class="info-box" style="left: 30px;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="InfoButton" class="info-box__button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LanguagePicker" style="flex-grow: 1; flex-direction: row-reverse; margin-left: 20px; margin-right: 20px;">
+                <ui:VisualElement name="LanguageButtonContainer" class="lang-selector__container">
+                    <ui:Button text="JP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Japanese" class="lang-selector__button action-button" />
+                    <ui:Button text="EN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="English" class="lang-selector__button action-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ProductContent" class="product-content">
+            <ui:VisualElement name="Middle" class="content-box" style="border-top-left-radius: 23px; border-top-right-radius: 23px;" />
+            <ui:VisualElement name="Bottom" class="content-box" style="border-bottom-right-radius: 23px; border-bottom-left-radius: 23px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ItemContaier" class="item-selector__row">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Previous" class="item-selector__button action-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Next" class="item-selector__button action-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

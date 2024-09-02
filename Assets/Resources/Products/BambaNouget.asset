@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc01a6cc22a64538a3798705679cc17, type: 3}
+  m_Name: BambaNouget
+  m_EditorClassIdentifier: 
+  productImage: {fileID: 21300000, guid: e57da83f881ff46adb141d3d26546c83, type: 3}
+  descriptionEn: 'Bamba Nougat is a special variation of the classic Bamba snack.
+    It combines the familiar peanut butter-flavored corn puff with a sweet nougat
+    filling inside. The outer layer is the same as the traditional Bamba, but the
+    nougat filling adds a creamy, rich sweetness that contrasts nicely with the salty
+    peanut butter flavor.
+
+
+    Bamba Nougat is a popular treat for those who enjoy
+    a mix of sweet and salty flavors, offering a twist on the classic Bamba experience.'
+  descriptionJp: 
