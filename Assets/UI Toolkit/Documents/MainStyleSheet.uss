@@ -50,17 +50,21 @@ root {
     justify-content: center;
 }
 
+.description-label {
+    -unity-font: url("project://database/Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-regular.ttf");
+    -unity-font-definition: url("project://database/Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-regular SDF.asset");
+    white-space: normal;
+}
+
 .content-box {
     background-color: rgb(242, 242, 242);
     flex-grow: 1;
     width: 100%;
 }
 
-.content-box ScrollView Label {
+.content-box {
     font-size: 30px;
-    -unity-font: url("project://database/Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1m-regular.ttf?fileID=12800000&guid=5b510769ddba50845a81da25103a8b73&type=3#mplus-1m-regular");
     white-space: normal;
-    -unity-font-definition: resource('Font/Noto_Sans_JP/static/NotoSansJP-Medium SDF');
 }
 
 .content-box Image {

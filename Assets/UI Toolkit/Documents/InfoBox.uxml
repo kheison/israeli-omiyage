@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Documents/InfoBox.uss?fileID=7433441132597879392&amp;guid=05b789dcae61c49428d34d5585059837&amp;type=3#InfoBox" />
+    <ui:VisualElement name="PopupContainer" class="info-box__container" style="background-color: rgba(0, 0, 0, 0.49);">
+        <ui:VisualElement name="PopupBackground" class="popup-background">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseButton" class="close-button" />
+            <ui:VisualElement name="Title" class="title">
+                <ui:Label tabindex="-1" text="Made With Unity&#10;By &#10;Igor Kheisson" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TitleText" class="title__text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Photo" class="photo">
+                <ui:VisualElement name="PhotoImage" class="photo__image" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Bottom" style="justify-content: center;">
+                <ui:VisualElement name="Linkedin" class="info-box-tile">
+                    <ui:VisualElement name="LinkedinImage" class="info-box-tile__image" />
+                    <ui:Button text="Press to connect!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LinkedinButton" class="info-box-tile__button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Slack" class="info-box-tile" style="flex-grow: 1; flex-direction: row; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <ui:VisualElement name="SlackImage" class="info-box-tile__image" style="flex-grow: 1; background-image: resource(&apos;UI/slack&apos;); -unity-background-scale-mode: scale-to-fit; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; margin-right: 15px; left: 0;" />
+                    <ui:Button text="Send me a message!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SlackButton" class="info-box-tile__button" style="flex-grow: 1; border-left-color: rgba(0, 0, 0, 0.75); border-right-color: rgba(0, 0, 0, 0.75); border-top-color: rgba(0, 0, 0, 0.75); border-bottom-color: rgba(0, 0, 0, 0.75); background-color: rgba(188, 188, 188, 0); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font: resource(&apos;Font/Noto_Sans_JP/static/NotoSansJP-Regular&apos;); -unity-font-definition: resource(&apos;Font/Noto_Sans_JP/static/NotoSansJP-Medium SDF&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

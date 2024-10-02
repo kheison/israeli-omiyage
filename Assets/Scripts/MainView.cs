@@ -4,11 +4,12 @@ using UnityEngine.UIElements;
 
 namespace Omiyage
 {
-    public class ProductDisplay : MonoBehaviour
+    public class MainView : MonoBehaviour
     {
         #region Editor Variables
         
-        [SerializeField] private List<Product> products;
+        [SerializeField] private List<Product> _products;
+        [SerializeField] private InfoBox _infoBox;
         
         #endregion
         
@@ -20,6 +21,7 @@ namespace Omiyage
         private Label _descriptionLabel;
         private bool _isEnglish = true;
         private int _currentIndex = 0; 
+        private VisualElement _infoBoxElement; 
         
         #endregion
 
@@ -29,6 +31,7 @@ namespace Omiyage
         {
             SetupVisualElements();
             DisplayProduct();
+            InitializeInfoBox();
         }
 
         #endregion
@@ -40,6 +43,7 @@ namespace Omiyage
             var root = GetComponent<UIDocument>().rootVisualElement;
 
             _descriptionLabel = new Label();
+            _descriptionLabel.AddToClassList(UiToolkitConstants.DESCRIPTION_LABEL_CLASS);
             _middleContainer = root.Q<VisualElement>(UiToolkitConstants.MIDDLE_CONTAINER_NAME);
 
             root.Q<VisualElement>(UiToolkitConstants.SCROLL_VIEW_NAME).Add(_descriptionLabel);
@@ -55,13 +59,15 @@ namespace Omiyage
             _enButton.clicked += () => SwitchLanguage(true);
             _jpButton.clicked += () => SwitchLanguage(false);
             
-            // Initialize the selected state
+            var infoButton = root.Q<Button>(UiToolkitConstants.INFO_BUTTON_NAME);
+            infoButton.clicked += HandleInfoBoxRequest;
+            
             UpdateLanguageButtons();
         }
         
         private void DisplayProduct()
         {
-            var product = products[_currentIndex];
+            var product = _products[_currentIndex];
 
             _middleContainer.Clear();
             var imageElement = new Image { sprite = product.ProductImage };
@@ -71,13 +77,13 @@ namespace Omiyage
 
         private void ShowPreviousProduct()
         {
-            _currentIndex = (_currentIndex - 1 + products.Count) % products.Count;
+            _currentIndex = (_currentIndex - 1 + _products.Count) % _products.Count;
             DisplayProduct();
         }
 
         private void ShowNextProduct()
         {
-            _currentIndex = (_currentIndex + 1) % products.Count;
+            _currentIndex = (_currentIndex + 1) % _products.Count;
             DisplayProduct();
         }
 
@@ -92,14 +98,26 @@ namespace Omiyage
         {
             if (_isEnglish)
             {
-                _enButton.AddToClassList("selected");
-                _jpButton.RemoveFromClassList("selected");
+                _enButton.AddToClassList(UiToolkitConstants.SELECTED_LANGUAGE_CLASS);
+                _jpButton.RemoveFromClassList(UiToolkitConstants.SELECTED_LANGUAGE_CLASS);
             }
             else
             {
-                _enButton.RemoveFromClassList("selected");
-                _jpButton.AddToClassList("selected");
+                _enButton.RemoveFromClassList(UiToolkitConstants.SELECTED_LANGUAGE_CLASS);
+                _jpButton.AddToClassList(UiToolkitConstants.SELECTED_LANGUAGE_CLASS);
             }
+        }
+
+        private void InitializeInfoBox()
+        {
+            _infoBoxElement = _infoBox.Initialize();
+            var root = GetComponent<UIDocument>().rootVisualElement;
+            root.Q(UiToolkitConstants.MAIN_VIEW_CONTAINER_NAME).Add(_infoBoxElement);
+        }
+
+        private void HandleInfoBoxRequest()
+        {
+            _infoBox.Show();
         }
         
         #endregion

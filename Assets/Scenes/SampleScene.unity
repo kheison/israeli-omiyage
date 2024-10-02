@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 55485059}
   - component: {fileID: 55485058}
   - component: {fileID: 55485060}
+  - component: {fileID: 55485061}
   m_Layer: 5
   m_Name: MainView
   m_TagString: Untagged
@@ -183,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d38c3e202fa45e2b62771af60c06723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  products:
+  _products:
   - {fileID: 11400000, guid: 39333869125be469895ac4b8d820b460, type: 2}
   - {fileID: 11400000, guid: 788b254d52acd47fd93142478ed803fb, type: 2}
   - {fileID: 11400000, guid: 3919ac516946844d59f07ae116073951, type: 2}
@@ -192,6 +193,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7c509c22eeacf45c38de665ee413ab06, type: 2}
   - {fileID: 11400000, guid: 9b14140036bec43a28e428cc5272989c, type: 2}
   - {fileID: 11400000, guid: 9f74acbad59384e1e8462b2ed0d855ae, type: 2}
+  _infoBox: {fileID: 55485061}
+--- !u!114 &55485061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55485057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f048598905174b33935cffcdd31a9d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _infoBoxUXML: {fileID: 9197481963319205126, guid: 5ed0a341787ca4d029517c01c16876f6, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
