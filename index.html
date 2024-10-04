@@ -4,9 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | ProductJapan</title>
+    <style>
+      #loading-bar-container {
+        width: 100%;
+        background: #e0e0e0;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+      #loading-bar {
+        width: 0%;
+        height: 30px;
+        background: #4caf50;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+      }
+    </style>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=640 height=960 tabindex="-1" style="width: 640px; height: 960px; background: #231F20"></canvas>
+    <div id="loading-bar-container">
+      <div id="loading-bar">0%</div>
+    </div>
+    <canvas id="unity-canvas" width=640 height=960 tabindex="-1" style="width: 640px; height: 960px; background: #231F20; display: none;"></canvas>
     <script src="Build/WebGL.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -35,6 +56,14 @@
         productVersion: "0.0.11",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+        onProgress: function (unityInstance, progress) {
+          var loadingBar = document.getElementById('loading-bar');
+          loadingBar.style.width = (progress * 100) + '%';
+          loadingBar.innerHTML = (progress * 100).toFixed(2) + '%';
+        }
+      }).then(function (unityInstance) {
+        document.getElementById('loading-bar-container').style.display = 'none';
+        document.getElementById('unity-canvas').style.display = 'block';
       });
     </script>
   </body>
