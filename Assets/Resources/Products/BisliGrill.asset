@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: BisliGrill
   m_EditorClassIdentifier: 
   productImage: {fileID: 21300000, guid: 6ce022a6ad20c473b84f1fe6b21d89ce, type: 3}
-  descriptionEn: '      <size=42><sprite=1295></size>Gluten\n\nBisli comes in various
-    flavors, the "Grill" flavor is designed to mimic the taste of grilled or barbecued
-    foods, with a smoky, savory profile.
+  descriptionEn: '      <size=42><sprite=1295></size>Gluten
+
+
+    Bisli comes in
+    various flavors, the "Grill" flavor is designed to mimic the taste of grilled
+    or barbecued foods, with a smoky, savory profile.
 
 '
-  descriptionJp: "      <size=42><sprite=1295></size>\u30B0\u30EB\u30C6\u30F3\\n\\n\u30D3\u30B9\u30EA\u306B\u306F\u3055\u307E\u3056\u307E\u306A\u30D5\u30EC\u30FC\u30D0\u30FC\u304C\u3042\u308A\u3001\u300C\u30B0\u30EA\u30EB\u300D\u30D5\u30EC\u30FC\u30D0\u30FC\u306F\u30B0\u30EA\u30EB\u3084\u30D0\u30FC\u30D9\u30AD\u30E5\u30FC\u98DF\u54C1\u306E\u5473\u3092\u6A21\u3057\u3066\u304A\u308A\u3001\u30B9\u30E2\u30FC\u30AD\u30FC\u3067\u98A8\u5473\u8C4A\u304B\u306A\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB\u304C\u7279\u5FB4\u3067\u3059\u3002\n"
+  descriptionJp: "      <size=42><sprite=1295></size>\u30B0\u30EB\u30C6\u30F3\n\n\u30D3\u30B9\u30EA\u306B\u306F\u3055\u307E\u3056\u307E\u306A\u30D5\u30EC\u30FC\u30D0\u30FC\u304C\u3042\u308A\u3001\u300C\u30B0\u30EA\u30EB\u300D\u30D5\u30EC\u30FC\u30D0\u30FC\u306F\u30B0\u30EA\u30EB\u3084\u30D0\u30FC\u30D9\u30AD\u30E5\u30FC\u98DF\u54C1\u306E\u5473\u3092\u6A21\u3057\u3066\u304A\u308A\u3001\u30B9\u30E2\u30FC\u30AD\u30FC\u3067\u98A8\u5473\u8C4A\u304B\u306A\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB\u304C\u7279\u5FB4\u3067\u3059\u3002\n"
